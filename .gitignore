@@ -1,0 +1,22 @@
+# Ambiente virtual
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Dados e modelos treinados (podem ser pesados)
+*.npy
+*.npz
+*.pkl
+*.h5
