@@ -1,21 +1,21 @@
-# Ambiente virtual
+# Ambiente virtual #
 venv/
 .env
 
-# Python
+# Python #
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# VS Code
+# VS Code #
 .vscode/
 
-# Windows
+# Windows #
 Thumbs.db
 desktop.ini
 
-# Dados e modelos treinados (podem ser pesados)
+# Dados e modelos treinados (podem ser pesados) #
 *.npy
 *.npz
 *.pkl
