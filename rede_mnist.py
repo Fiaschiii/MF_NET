@@ -157,3 +157,13 @@ print(f"\nTestando as primeiras 10 imagens:")
 for i in range(10):
     status = "✓" if previsoes[i] == y_teste[i] else "✗"
     print(f"  {status} previu {previsoes[i]} | real: {y_teste[i]}")
+
+
+np.save("W1.npy", W1)
+np.save("b1.npy", b1)
+np.save("W2.npy", W2)
+np.save("b2.npy", b2)
+np.save("W3.npy", W3)
+np.save("b3.npy", b3)
+
+print("\nPesos salvos em arquivos .npy")
