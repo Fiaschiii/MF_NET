@@ -1,3 +1,4 @@
 # libs
 numpy
 keras
+Pillow
