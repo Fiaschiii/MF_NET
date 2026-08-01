@@ -66,7 +66,7 @@ Saída (10 neurônios) — Softmax
 git clone https://github.com/Fiaschiii/MF_NET.git
 cd MF_NET
 python -m venv venv
-venv\Scripts\activate        # Windows
+venv\Scripts\activate       
 pip install -r requirements.txt
 ```
 
@@ -79,8 +79,8 @@ python main.py
 
 **Etapa 2 — Treinar no MNIST:**
 ```bash
-python baixar_mnist.py    # baixa e prepara os dados
-python rede_mnist.py      # treina a rede e salva os pesos (.npy)
+python baixar_mnist.py    
+python rede_mnist.py      
 ```
 
 **Etapa 3 — Interface gráfica:**
